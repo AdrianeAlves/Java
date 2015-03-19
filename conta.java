@@ -31,7 +31,7 @@ public class Conta {
   }
   
   public void setSenha (String senha){
-    if (senha.length() < 6)
+    if (senha.length() < 6)   --- mudou de novo??
       system.out.println ("A senha deve conter no mínimo seis dígitos");
     else
       this.senha = senha;
